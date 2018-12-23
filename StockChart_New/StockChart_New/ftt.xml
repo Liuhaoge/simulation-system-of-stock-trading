@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<charts>
+  <config basetop="0" baseleft="0" basewidth="0" baseheight="0"/>
+  <all>
+    <item Tag="0" Top="0" Left="0" Name="" Width="90" class="TMyChartLabel" Height="20" Caption="这是文本对象" Visible="1" EndColor="16711680" Gradient="0" ChartName="文本1" FromColor="0" Background="673968" Transparent="1" BackgroundTop="0" GradientSteps="100" BackgroundLeft="0" BackgroundCenter="1" VerticalGradient="1" BackgroundStretch="0">
+      <font name="default" size="9" color="16777215"/>
+    </item>
+    <item Tag="0" Top="0" Left="0" Name="" Width="200" class="TMyChartBox" Height="100" Caption="这是面板对象" Visible="1" EndColor="16711680" Gradient="1" ChartName="面板2" FromColor="0" Background="674640" BorderColor="16777215" BorderWidth="1" Transparent="0" BackgroundTop="0" BorderVisible="0" GradientSteps="100" BackgroundLeft="0" BackgroundCenter="1" VerticalGradient="1" BackgroundStretch="0">
+      <font name="default" size="9" color="16777215"/>
+    </item>
+    <item Tag="0" Top="0" Left="0" Name="" Width="90" class="TMyChartLabel" Height="20" Caption="这是文本对象" Visible="1" EndColor="16711680" Gradient="0" ChartName="文本3" FromColor="0" Background="684720" Transparent="1" BackgroundTop="0" GradientSteps="100" BackgroundLeft="0" BackgroundCenter="1" VerticalGradient="1" BackgroundStretch="0">
+      <font name="default" size="9" color="16777215"/>
+    </item>
+  </all>
+</charts>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<charts>
+  <config basetop="0" baseleft="0" basewidth="960" baseheight="435"/>
+  <all>
+    <item Tag="0" Top="10" Left="40" Name="" Width="204" class="TMyChartLabel" Height="35" Caption="399001深证成指" Visible="1" EndColor="-2147483647" Gradient="1" ChartName="caption" FromColor="128" Background="23101824" Transparent="0" BackgroundTop="0" GradientSteps="100" BackgroundLeft="0" BackgroundCenter="1" VerticalGradient="0" BackgroundStretch="0">
+      <font name="default" size="16" color="16777215"/>
+    </item>
+    <item Tag="0" Top="80" Left="40" Name="" Width="780" class="TMyChartGrid" Height="300" Caption="" Visible="1" ColCount="5" EndColor="16711680" EveryCol="1" Gradient="1" ChartName="grid" FromColor="0" Background="23102112" HGridColor="8421504" VGridColor="8421504" BorderColor="16777215" BorderWidth="1" Transparent="0" FixRowHeight="10" HGridVisible="1" VGridVisible="0" BackgroundTop="0" BorderVisible="0" GradientSteps="100" BackgroundLeft="0" MiddleLineColor="8421504" BackgroundCenter="1" HGridTransparent="128" VGridTransparent="128" VerticalGradient="1" BackgroundStretch="0" DisplayMiddleLine="0" MiddleLineTransparent="128">
+      <font name="default" size="0" color="536870912"/>
+    </item>
+    <item Tag="0" Top="180" Left="50" Name="" IsBar="1" Width="770" class="TMyChartVolume" Height="200" Visible="1" BarColor="8388608" ColCount="100" EndColor="16711680" Gradient="0" MaxValue="99" MinValue="0" AutoRange="1" ChartName="volume" FromColor="0" LineColor="16777215" LineWidth="1" Background="23102208" LineVisible="0" Transparent="1" DisplayCount="100" BackgroundTop="0" GradientSteps="100" BackgroundLeft="0" BackgroundCenter="1" VerticalGradient="1" BackgroundStretch="0"/>
+    <item Tag="0" Top="80" Left="50" Name="" Width="770" class="TMyChartLine" Height="300" Visible="1" ColCount="100" EndColor="16711680" Gradient="0" MaxValue="99" MinValue="0" AutoRange="1" ChartName="price" FromColor="0" LineColor="16777215" LineWidth="1" Background="23102304" Transparent="1" DisplayCount="100" BackgroundTop="0" GradientSteps="100" BackgroundLeft="0" BackgroundCenter="1" VerticalGradient="1" BackgroundStretch="0"/>
+    <item Tag="0" Top="10" Left="260" Name="" Width="0" class="TMyChartOHLCBanner" Height="0" Caption="" Spacing="120" Visible="1" EndColor="16711680" Gradient="0" LowValue="0" ChartName="ohlc" FromColor="0" HighValue="0" OpenValue="0" Background="23102400" CloseValue="8190.1021" DateString="00:00:00" LowCaption="最低" BorderColor="16777215" BorderWidth="1" HighCaption="最高" OpenCaption="今开" Transparent="1" CloseCaption="" DecimalCount="4" BackgroundTop="0" BorderVisible="0" GradientSteps="100" IncreaseValue="0" BackgroundLeft="0" LastCloseValue="0" NormalFontSize="9" ValueFontColor="16777215" IncreaseCaption="涨跌" BackgroundCenter="1" CaptionFontColor="16777215" LastCloseCaption="前收" VerticalGradient="1" BackgroundStretch="0" IncreaseRateValue="0" CloseValueFontSize="16" IncreaseRateCaption="涨幅">
+      <font name="default" size="0" color="16777215"/>
+    </item>
+    <item Tag="0" Top="380" Left="50" Name="" Width="770" class="TMyChartAxisX" Height="300" Visible="1" ColCount="241" EndColor="16711680" EveryCol="30" Gradient="0" ChartName="x" FromColor="8421504" IsDayTick="0" TickColor="65535" Background="23102496" HLineColor="8421504" TickLength="5" TickVisible="1" Transparent="1" HLineVisible="1" BackgroundTop="0" GradientSteps="100" LabelDecCount="0" UseSmartLabel="0" BackgroundLeft="0" LabelLeadString="" TickTransparent="0" BackgroundCenter="1" HLineTransparent="0" VerticalGradient="1" BackgroundStretch="0" LabelFollowString="">
+      <font name="default" size="9" color="65535"/>
+    </item>
+    <item Tag="0" Top="80" Left="820" Name="" Width="0" class="TMyChartAxisY" Height="300" Visible="1" EndColor="16711680" Gradient="0" MaxValue="100" MinValue="0" ChartName="y" FromColor="0" TickColor="65535" Background="23102592" TickLength="5" VLineColor="16777215" TickVisible="1" Transparent="1" VLineVisible="1" BackgroundTop="0" GradientSteps="100" LabelDecCount="2" UseSmartLabel="1" BackgroundLeft="0" FixedRowHeight="33" LabelLeadString="" TickTransparent="128" BackgroundCenter="1" VLineTransparent="0" VerticalGradient="1" BackgroundStretch="0" LabelFollowString="">
+      <font name="default" size="9" color="65535"/>
+    </item>
+  </all>
+</charts>

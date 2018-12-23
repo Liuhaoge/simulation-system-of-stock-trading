@@ -1,0 +1,221 @@
+object frmMain: TfrmMain
+  Left = 605
+  Height = 617
+  Top = 155
+  Width = 918
+  Caption = 'New StockChart'
+  ClientHeight = 617
+  ClientWidth = 918
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  OnResize = FormResize
+  LCLVersion = '6.3'
+  object box: TPaintBox32
+    Left = 0
+    Height = 489
+    Top = 128
+    Width = 918
+    Align = alClient
+    TabOrder = 0
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 128
+    Top = 0
+    Width = 918
+    ActivePage = TabSheet3
+    Align = alTop
+    TabIndex = 2
+    TabOrder = 1
+    object TabSheet1: TTabSheet
+      Caption = '函数测试'
+      ClientHeight = 71
+      ClientWidth = 680
+      object Button1: TButton
+        Left = 13
+        Height = 31
+        Top = 19
+        Width = 150
+        Caption = 'Area Gradient'
+        OnClick = Button1Click
+        TabOrder = 0
+      end
+      object Button2: TButton
+        Left = 172
+        Height = 31
+        Top = 19
+        Width = 150
+        Caption = 'Area Gradient H'
+        OnClick = Button2Click
+        TabOrder = 1
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'ChartItemBase'
+      ClientHeight = 95
+      ClientWidth = 910
+      object Button3: TButton
+        Left = 17
+        Height = 31
+        Top = 17
+        Width = 94
+        Caption = '绘制'
+        OnClick = Button3Click
+        TabOrder = 0
+      end
+      object CheckBox1: TCheckBox
+        Left = 119
+        Height = 24
+        Top = 19
+        Width = 84
+        Caption = '渐变背景'
+        TabOrder = 1
+      end
+      object RadioButton1: TRadioButton
+        Left = 212
+        Height = 24
+        Top = 19
+        Width = 54
+        Caption = '垂直'
+        Checked = True
+        TabOrder = 3
+        TabStop = True
+      end
+      object RadioButton2: TRadioButton
+        Left = 275
+        Height = 24
+        Top = 19
+        Width = 54
+        Caption = '水平'
+        TabOrder = 2
+      end
+      object Button4: TButton
+        Left = 348
+        Height = 31
+        Top = 17
+        Width = 94
+        Caption = '加背景图'
+        OnClick = Button4Click
+        TabOrder = 4
+      end
+      object Button5: TButton
+        Left = 450
+        Height = 31
+        Top = 17
+        Width = 94
+        Caption = '去背景图'
+        OnClick = Button5Click
+        TabOrder = 5
+      end
+      object CheckBox2: TCheckBox
+        Left = 555
+        Height = 24
+        Top = 19
+        Width = 84
+        Caption = '背景拉伸'
+        TabOrder = 6
+      end
+      object CheckBox3: TCheckBox
+        Left = 645
+        Height = 24
+        Top = 19
+        Width = 84
+        Caption = '背景居中'
+        TabOrder = 7
+      end
+      object ColorButton1: TColorButton
+        Left = 120
+        Height = 31
+        Top = 56
+        Width = 94
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+      end
+      object ColorButton2: TColorButton
+        Left = 220
+        Height = 31
+        Top = 56
+        Width = 94
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+      end
+      object CheckBox4: TCheckBox
+        Left = 348
+        Height = 24
+        Top = 60
+        Width = 114
+        Caption = '降低特效质量'
+        TabOrder = 8
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Box && Grid'
+      ClientHeight = 95
+      ClientWidth = 910
+      object Button6: TButton
+        Left = 17
+        Height = 31
+        Top = 13
+        Width = 94
+        Caption = '绘制Box'
+        OnClick = Button6Click
+        TabOrder = 0
+      end
+      object Button7: TButton
+        Left = 116
+        Height = 31
+        Top = 13
+        Width = 158
+        Caption = '绘制Grid和Y轴'
+        OnClick = Button7Click
+        TabOrder = 1
+      end
+      object Button8: TButton
+        Left = 284
+        Height = 31
+        Top = 14
+        Width = 94
+        Caption = 'FPS'
+        OnClick = Button8Click
+        TabOrder = 2
+      end
+      object Button9: TButton
+        Left = 392
+        Height = 31
+        Top = 13
+        Width = 94
+        Caption = 'Button9'
+        OnClick = Button9Click
+        TabOrder = 3
+      end
+      object SpinEdit1: TSpinEdit
+        Left = 170
+        Height = 28
+        Top = 52
+        Width = 63
+        MinValue = 1
+        TabOrder = 4
+        Value = 1
+      end
+      object Label1: TLabel
+        Left = 128
+        Height = 20
+        Top = 55
+        Width = 30
+        Caption = '线宽'
+        ParentColor = False
+      end
+      object ColorButton3: TColorButton
+        Left = 237
+        Height = 31
+        Top = 53
+        Width = 94
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clWhite
+      end
+    end
+  end
+end
